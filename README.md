@@ -1,9 +1,5 @@
 # TCP-opening-closing-in-C
 TCP opening and closing process representation in C
-
-
-Zaira E Cruz
-CSCE 3530
 November 9,2016
 
 Compilation:
@@ -22,9 +18,7 @@ The 4 way closing protocol is started by the client again and the FIN bit is set
 then responds with another packet that ACK the previous packet (ACK to 1). The sender again responds
 with last packet setting their FIN bit to 1. The client again finalizes the connection by sending last
 packet with ACK bit set to 1.
-
 Source for checksum and tcp segment structure Dr. Robin J Pottathuparambil
-
 In total:
 		client: 
 			sends 4 packets
